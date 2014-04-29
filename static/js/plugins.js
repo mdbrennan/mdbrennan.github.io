@@ -5,9 +5,8 @@
 		
 		
 		// Default options
-		options: {
-			select:'[data-scroll-nav-test]',
-			speed:'1000',
+		options: {			
+			speed:'1500',
 			header: 0		
 		},
 
@@ -40,6 +39,8 @@
 			self._on(window,{
 				'scroll':self.watchScroll				
 			});
+
+			$(window).scroll();
 									
 		},
 
@@ -51,10 +52,7 @@
 				options = self.options;
 
 			e.preventDefault();
-			
-
-			console.log(options.speed);
-			console.log($(e.currentTarget).data('scroll-nav'));
+						
 			var scrollAnchor = $('#'+$(e.currentTarget).data('scroll-nav')).position().top;
 			
 			$('body,html').animate({
@@ -63,7 +61,6 @@
         		options.speed || 'default',
         		'easeOutCubic'
     		);
-
 
 
 		},
@@ -83,8 +80,6 @@
 					$('[data-scroll-header="top"] > h1').text(anchorPoints[i].name)									
 				}
 			}
-
-			
 		}
 	});
 
