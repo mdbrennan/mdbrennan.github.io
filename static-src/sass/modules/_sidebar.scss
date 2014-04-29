@@ -1,0 +1,19 @@
+/* sidebar */
+
+aside{
+	position:fixed;
+	width:250px;
+	right:10px;
+	top:10px;
+
+	li{
+
+	}
+	li.scroll-active{
+		a{
+			font-weight:bold;
+		}
+	}
+}
+
+

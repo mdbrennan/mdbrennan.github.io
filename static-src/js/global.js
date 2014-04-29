@@ -3,9 +3,8 @@ RESUME = function(){
 
     return{
     	init:function(){
-    		console.log('started');
-    		console.log($('[data-section-nav]'));
-    		$('[data-section-nav]').navScroll();
+    		console.log('started');    		
+    		$('[data-scroll-nav]').navScroll({header:70});
     	}
     }
 }();

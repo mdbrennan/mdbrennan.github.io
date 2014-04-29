@@ -1,8 +1,25 @@
-/*BASE*/
-h1{
-	font-size:18px;
+/* compass reset */
+@import "compass/reset";
+
+/* core base */
+*,
+*:before,
+*:after {
+	@include box-sizing(border-box);
 }
 
-section{
-	height:500px;
+body{
+	font-size:$text-default;
+}
+
+h1{
+	font-size:$heading-large;
+}
+
+h2{
+	font-size:$heading-medium;
+}
+
+h3{
+	font-size:$heading-small;
 }

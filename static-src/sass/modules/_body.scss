@@ -1,0 +1,14 @@
+/* sections */
+section[data-scroll-section]{
+	min-height:500px;
+	&.scroll-active{
+		h2{display:none}
+	}
+}
+
+@import "intro.scss";
+@import "education.scss";
+@import "history.scss";
+@import "skills.scss";
+@import "references.scss";
+@import "notes.scss";
