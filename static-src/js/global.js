@@ -3,8 +3,8 @@ RESUME = function(){
 
     return{
     	init:function(){
-    		console.log('started');    		
-    		$('[data-scroll-nav]').navScroll({header:70});
+    		//console.log('started');    		
+    		$('[data-scroll-nav]').navScroll({header:75});
     	}
     }
 }();

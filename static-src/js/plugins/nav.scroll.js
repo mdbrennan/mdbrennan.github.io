@@ -21,15 +21,14 @@
 				element = self.element;
 						
 			//process the sections
-			var sectionEl = $('[data-scroll-section='+$(element).data('scroll-nav')+']');				
+			var sectionEl = $('[data-scroll-section='+$(element).data('scroll-nav')+']');
 			var section = {							
 				name: $(element).data('scroll-nav'),
 				element: element,
 				section: sectionEl,
 				top:sectionEl.position().top,
 				height:sectionEl.height()				
-			}
-			
+			}		
 			self.anchorPoints.push(section);											
 
 			self._on(element,{
@@ -40,14 +39,13 @@
 				'scroll':self.watchScroll				
 			});
 
-			$(window).scroll();
-									
+			$(window).scroll();												
 		},
 
 		anchorPoints : [],
 
 		clickScroll : function(e){
-			console.log('clicked');
+			//console.log('clicked');
 			var self = this,
 				options = self.options;
 
@@ -69,18 +67,21 @@
 		},
 		//reset the title attribute
 		watchScroll : function(e){
-			console.log('watch');
+			//console.log('watch');
 			var self = this,
 				options = self.options;					
-			var pos = ($(window).scrollTop() + options.header) || $(window).scrollTop();
+			var pos = $(window).scrollTop();
 			var anchorPoints = self.anchorPoints;
-			for(var i = 0; i < anchorPoints.length; i++){
+						
+			for(var i = 0; i < anchorPoints.length; i++){						
+
 				if (pos >= anchorPoints[i].top && pos < anchorPoints[i].top + anchorPoints[i].height){					
 					$('.scroll-active').removeClass('scroll-active');
 					$(anchorPoints[i].element).addClass('scroll-active');
 					$(anchorPoints[i].section).addClass('scroll-active');
-					
-					$('[data-scroll-section="header"] > h1').text(anchorPoints[i].name)									
+																		
+				}else if(pos < options.header){
+					$('.scroll-active').removeClass('scroll-active');	
 				}
 			}
 		}

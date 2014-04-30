@@ -1,8 +1,20 @@
 /* sections */
 section[data-scroll-section]{
-	min-height:500px;
+	min-height:500px;	
+	position:relative;
+	h2{
+		height:75px;
+		line-height: 75px;
+		border:solid 1px #000;
+		width:100%;
+	}
 	&.scroll-active{
-		h2{display:none}
+
+		h2{
+			position:fixed;
+			top:0px;			
+			width:100%;
+		}
 	}
 }
 
