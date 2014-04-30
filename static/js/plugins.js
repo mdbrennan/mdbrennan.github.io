@@ -21,8 +21,7 @@
 				element = self.element;
 						
 			//process the sections
-			var sectionEl = $('[data-scroll-section='+$(element).data('scroll-nav')+']');	
-			console.log(sectionEl);		
+			var sectionEl = $('[data-scroll-section='+$(element).data('scroll-nav')+']');				
 			var section = {							
 				name: $(element).data('scroll-nav'),
 				element: element,
@@ -55,9 +54,7 @@
 			e.preventDefault();
 						
 			var scrollAnchor = $('[data-scroll-section='+$(e.currentTarget).data('scroll-nav')+']').position().top;
-			
-			console.log(scrollAnchor);
-
+						
 			$('body,html').animate({
             		scrollTop: scrollAnchor
         		}, 
