@@ -21,7 +21,8 @@
 				element = self.element;
 						
 			//process the sections
-			var sectionEl = $('#'+$(element).data('scroll-nav'));			
+			var sectionEl = $('[data-scroll-section='+$(element).data('scroll-nav')+']');	
+			console.log(sectionEl);		
 			var section = {							
 				name: $(element).data('scroll-nav'),
 				element: element,
@@ -53,13 +54,18 @@
 
 			e.preventDefault();
 						
-			var scrollAnchor = $('#'+$(e.currentTarget).data('scroll-nav')).position().top;
+			var scrollAnchor = $('[data-scroll-section='+$(e.currentTarget).data('scroll-nav')+']').position().top;
 			
+			console.log(scrollAnchor);
+
 			$('body,html').animate({
             		scrollTop: scrollAnchor
         		}, 
         		options.speed || 'default',
-        		'easeOutCubic'
+        		'easeOutCubic',
+        		function(){
+        			window.location.hash = $(e.target).attr('href'); 
+        		}
     		);
 
 
@@ -77,7 +83,7 @@
 					$(anchorPoints[i].element).addClass('scroll-active');
 					$(anchorPoints[i].section).addClass('scroll-active');
 					
-					$('[data-scroll-header="top"] > h1').text(anchorPoints[i].name)									
+					$('[data-scroll-section="header"] > h1').text(anchorPoints[i].name)									
 				}
 			}
 		}
