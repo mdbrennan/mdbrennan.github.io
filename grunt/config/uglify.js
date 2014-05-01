@@ -24,6 +24,17 @@ module.exports = {
 		dest:	'<%= paths.dist %>/js/base.min.js'
 	},
 
+	theme: {
+		options: {
+			banner:				'<%= banner %>',
+			compress:			true,
+			mangle:				true,
+			beautify:			false			
+		},
+		src:	'<%= paths.dist %>/js/theme-base.js',
+		dest:	'<%= paths.dist %>/js/theme-base.min.js'
+	},
+
 	plugins: {
 		src: '<%= paths.dist %>/js/plugins.js',
 		dest: '<%= paths.dist %>/js/plugins.min.js',

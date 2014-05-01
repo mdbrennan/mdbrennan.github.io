@@ -62,6 +62,7 @@
         			window.location.hash = $(e.target).attr('href'); 
         		}
     		);
+    		
 
 
 		},

@@ -27,6 +27,15 @@ module.exports = {
 			'<%= paths.src %>/js/plugins/*.js',		
 		],
 		dest:	'<%= paths.dist %>/js/plugins.js'
+	},
+
+	theme:{
+		src:	[			
+			'<%= paths.src %>/js/lib/jquery.ui.core.js',
+			'<%= paths.src %>/js/lib/jquery.ui.widget.js',	
+			'<%= paths.src %>/js/lib/jquery.ui.effect.js',			
+		],
+		dest:	'<%= paths.dist %>/js/theme-base.js'
 	}
 
 };

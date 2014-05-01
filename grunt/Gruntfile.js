@@ -76,14 +76,14 @@ module.exports = function(grunt) {
           '<%= paths.src %>/js/*.js',
           '<%= paths.src %>/js/**/*.js'          
         ],
-        tasks: ['concat', 'uglify']
+        tasks: ['concat', 'uglify', 'copy']
       },      
 
       css: {
         files: [
           '<%= paths.src %>/sass/**/*.scss'
         ],
-        tasks: ['compass']
+        tasks: ['compass', 'copy']
       },
 
       images: {
@@ -110,7 +110,9 @@ module.exports = function(grunt) {
   // Default task.
   grunt.registerTask('default', ['watch']);
 
-  grunt.registerTask('build', ['compass', 'concat', 'uglify', 'copy']);  
+  grunt.registerTask('build', ['compass', 'concat', 'uglify', 'copy']); 
+
+    
 
   grunt.registerTask('js', ['concat', 'uglify']);
 
