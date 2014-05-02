@@ -5,8 +5,10 @@ section[data-scroll-section]{
 	h2{
 		height:75px;
 		line-height: 75px;
-		border:solid 1px #000;
+		background-color: rgba(255,255,255,0.2);
+		box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.4);
 		width:100%;
+		text-transform: capitalize;
 	}
 	&.scroll-active{
 

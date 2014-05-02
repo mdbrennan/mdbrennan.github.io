@@ -50,6 +50,17 @@ module.exports = {
 				dest:	'<%= paths.dist %>/fonts/'
 			}
 		]
+	},
+
+	themefolder: {
+		files: [
+			{
+				expand:	true,
+				cwd:	'../ghost-theme/',
+				src:	'**/*.*',
+				dest:	'<%= paths.themeprod %>'
+			}
+		]
 	}
 
 };
