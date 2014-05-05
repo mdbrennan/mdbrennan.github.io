@@ -3,10 +3,13 @@ RESUME = function(){
 
     return{
     	init:function(){
-    		//console.log('started');    		
-    		$('[data-scroll-nav]').navScroll({header:75});
+    		//console.log('started');  
 
+    		if (!Modernizr.touch) {   
+			    $('[data-scroll-nav]').navScroll({header:75});
+			}    		
     		
+
     	}
     }
 }();

@@ -1,7 +1,7 @@
 /* sections */
 section[data-scroll-section]{
 	min-height:500px;	
-	position:relative;
+	position:relative;	
 	h2{
 		height:75px;
 		line-height: 75px;
@@ -9,6 +9,7 @@ section[data-scroll-section]{
 		box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.4);
 		width:100%;
 		text-transform: capitalize;
+
 	}
 	&.scroll-active{
 
@@ -17,6 +18,17 @@ section[data-scroll-section]{
 			top:0px;			
 			width:100%;
 		}
+	}
+}
+
+@include respond-to(mobile){
+	section[data-scroll-section]{
+		min-height:500px;	
+		position: -webkit-sticky;
+		position: -moz-sticky;
+		position: -ms-sticky;
+		position: -o-sticky;	
+		top:0px;		
 	}
 }
 
