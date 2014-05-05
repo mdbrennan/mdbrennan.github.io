@@ -22,8 +22,7 @@ section[data-scroll-section]{
 }
 
 @include respond-to(mobile){
-	section[data-scroll-section]{
-		min-height:500px;	
+	section[data-scroll-section]{		
 		position: -webkit-sticky;
 		position: -moz-sticky;
 		position: -ms-sticky;
