@@ -19,9 +19,15 @@ aside{
 		a{
 			font-weight:bold;
 			text-transform: capitalize;
-			
+
 		}
 	}
 }
 
+
+@include respond-to(mobile){
+	aside{
+		display:none;
+	}
+}
 

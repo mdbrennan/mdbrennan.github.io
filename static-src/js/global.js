@@ -5,9 +5,9 @@ RESUME = function(){
     	init:function(){
     		//console.log('started');  
 
-    		
-			$('[data-scroll-nav]').navScroll({header:75});
-		
+    		if (!Modernizr.touch) { 
+			    $('[data-scroll-nav]').navScroll({header:75});
+			}    		
     		
 
     	}
