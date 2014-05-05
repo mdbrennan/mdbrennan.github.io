@@ -23,12 +23,12 @@ section[data-scroll-section]{
 
 @include respond-to(mobile){
 	section[data-scroll-section]{
-		&.scroll-active{
-			h2{
-				position: -webkit-sticky;	
-				top:0px;	
-			}		
-		}						
+		
+		h2{
+			position: -webkit-sticky;	
+			top:0px;	
+		}		
+		
 	}
 }
 
