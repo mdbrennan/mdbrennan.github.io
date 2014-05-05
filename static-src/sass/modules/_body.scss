@@ -25,12 +25,8 @@ section[data-scroll-section]{
 	section[data-scroll-section]{
 		&.scroll-active{
 			h2{
-				position: -webkit-sticky;
-				position: -moz-sticky;
-				position: -ms-sticky;
-				position: -o-sticky;	
+				position: -webkit-sticky;	
 				top:0px;	
-				width:100%;		
 			}		
 		}						
 	}
