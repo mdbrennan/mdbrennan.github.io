@@ -11,23 +11,28 @@ section[data-scroll-section]{
 		text-transform: capitalize;
 
 	}
-	&.scroll-active{
-
+	&.scroll-active{		
 		h2{
 			position:fixed;
 			top:0px;			
 			width:100%;
 		}
+
 	}
 }
 
 @include respond-to(mobile){
-	section[data-scroll-section]{		
-		position: -webkit-sticky;
-		position: -moz-sticky;
-		position: -ms-sticky;
-		position: -o-sticky;	
-		top:0px;		
+	section[data-scroll-section]{
+		&.scroll-active{
+			h2{
+				position: -webkit-sticky;
+				position: -moz-sticky;
+				position: -ms-sticky;
+				position: -o-sticky;	
+				top:0px;	
+				width:100%;		
+			}		
+		}						
 	}
 }
 
