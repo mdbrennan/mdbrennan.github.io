@@ -11,24 +11,37 @@ section[data-scroll-section]{
 		text-transform: capitalize;
 
 	}
-	&.scroll-active{		
+	@include respond-to(desktop){
+		&.scroll-active{		
+			h2{
+				position:fixed;
+				top:0px;			
+				width:100%;
+			}
+
+		}
+	}
+	@include respond-to(tablet){			
 		h2{
-			position:fixed;
+			position: -webkit-sticky !important;
 			top:0px;			
 			width:100%;
 		}
 
+		
 	}
+	@include respond-to(mobile){		
+		h2{
+			position: -webkit-sticky !important;
+			top:0px;			
+			width:100%;
+		}
+
+		
+	}
+	
 }
 
-@include respond-to(mobile){
-	section[data-scroll-section]{		
-		h2{
-			position: -webkit-sticky !important;	
-			top:0px;	
-		}				
-	}
-}
 
 @import "intro.scss";
 @import "education.scss";
