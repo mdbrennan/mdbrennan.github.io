@@ -4,12 +4,14 @@ section[data-scroll-section]{
 	position:relative;	
 	h2{
 		height:75px;
-		line-height: 75px;
-		background-color: rgba(255,255,255,0.2);
+		line-height: 75px;		
 		box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.4);
 		width:100%;
 		text-transform: capitalize;
-
+		padding:0px 40px;
+	}
+	.post-content{
+		padding:40px;
 	}
 	@include respond-to(desktop){
 		&.scroll-active{		
