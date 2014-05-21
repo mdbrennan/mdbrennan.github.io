@@ -29,20 +29,22 @@ Over 14 years experience working in the Web Development field for both large and
 
 ##Education
 
-B.A. Multimedia (Interactive Learning)
+####B.A. Multimedia (Interactive Learning)
 Southern Cross University, NSW, AU
 
-Network Administration
+####Network Administration
 Sydney Institute of Technology, NSW, AU
 
-Certified in Agile Development Process (scrum & kanban)
-Certified Scrum Master
+####Certified in Agile Development Process (scrum & kanban)
+
+####Certified Scrum Master
 
 ##History
 
-####Australian Broachcasting Corportation
-**Senior Front-End Devloper**
-*October 2013 - Present*
+####Australian Broachcasting Corportation  
+#####Senior Front-End Devloper
+######*October 2013 - Present*
+
 - Senior Front End Developer, responsible for implementation of responsive CMS front-end.
 - ‘Hired Gun’ bought in to hit the ground running due to my extensive experience with enterprise level responsive front end builds
 - Framework built using the following technologies
@@ -50,9 +52,12 @@ Certified Scrum Master
 	- SASS
 	- jQuery, Bootstrap, Backbone, jQuery UI Widget factory, Require JS
 
-####Neon Stingray
-**Lead Front-End Developer**
-*April 2013 - October 2013*
+---
+
+####Neon Stingray  
+#####Lead Front-End Developer
+######*April 2013 - October 2013*
+
 - Lead Front-End developer for Foxtel's Presto Video on Demand service
 - Custome responsive mobile framework development
 	- Leanback / Couch mode front-end framework
@@ -60,9 +65,12 @@ Certified Scrum Master
 - Extensive JavaScript framework development
 - Google Web ToolKit front-end integration
 
-IRL Gaming PTY LTD
-**Co-Founder / Director / Lead Front-End Devloper**
-*January 2011 - December 2013*
+---
+
+####IRL Gaming PTY LTD  
+#####Co-Founder / Director / Lead Front-End Devloper
+######*January 2011 - December 2013*
+
 - Lead Front-End Developer for iOS mobile games and apps using Appcelerator Titanium
 - Detailed mobile UX and Interface Development
 - Mobile App story boarding and user journey research
@@ -70,10 +78,12 @@ IRL Gaming PTY LTD
 - Project Management
 - Management of outsourced resourses
 
+---
 
-Vodafone Hutchinson Australia
-**Lead Front-End Developer**
-*10/2010 -04/2013*
+####Vodafone Hutchinson Australia  
+#####Lead Front-End Developer
+######*10/2010 -04/2013*
+
 - Lead front-end developer for all major projects
 - Management of 4 developer direct reports
 - Front-end architecture for unified CMS implementation
@@ -82,10 +92,12 @@ Vodafone Hutchinson Australia
 - Responsible for audits of performance, accessibility, and SEO 
 - Responsible for vendor development guidelines and quality control
 
+---
 
-News Digital Media (True Local)
-**Lead Front-End Developer**
-*June 2009 - November 2010*
+####News Digital Media (True Local)  
+#####Lead Front-End Developer
+######*June 2009 - November 2010*
+
 - Team lead for all front-end development for TrueLocal
 - Total ownership of all front-end technologies
 - Front-end development planning and architecture 
@@ -94,9 +106,12 @@ News Digital Media (True Local)
 - jQuery custom plugin creation
 - Integration with 3rd party APIs
 
-The Sound Alliance
-**Senior Front-End Developer***
-*February 2009 - June 2009*
+---
+
+####The Sound Alliance  
+#####Senior Front-End Developer
+######*February 2009 - June 2009*
+
 - Responsible for front-end mark up
 - JavaScript Development based on jQuery framework
 - Page performance improvements (CSS sprites, compression, file roll up, lightweight semantic markup)
@@ -104,9 +119,12 @@ The Sound Alliance
 - Smarty template integration (PHP)
 - Strong skill set in OpenSource development tools (Aptana, etc)
 
-Yahoo! Inc
-**Front-End Engineer**
-*January 2006 - December 2008*
+---
+
+####Yahoo! Inc  
+#####Front-End Engineer
+######*January 2006 - December 2008*
+
 - Responsible for front end mark up (HTML, CSS, JavaScript)
 - Clear separation of presentational layer
 - Continually improving page load performance via new methods and techniques (CSS sprites, ySlow, etc)
@@ -117,10 +135,12 @@ Yahoo! Inc
 - Advance hand coding skill set (HTML, CSS, JS)
 - Advance skill set in all web developer tools (DreamWeaver, Photoshop, Flash, Fireworks etc)
 
+---
 
-Freelance Web Development
-**HWW Limited (nineMSN), Matrix Media, Chameleon Group**
-*2004 - 2006*
+####Freelance Web Development  
+#####HWW Limited (nineMSN), Matrix Media, Chameleon Group
+######*2004 - 2006*
+
 - Front end mark up (HTML, CSS, JavaScript)
 - Mobile Device websites & Content design/development
 - Mobile device streaming media (3G,iMode, Vodafone)
@@ -129,10 +149,12 @@ Freelance Web Development
 - Art Template Creation
 - Content Design and Production
 
+---
 
-Suburban Force
-**Co Founder / Director / Web Developer**
-*February 2001 - December 2004*
+####Suburban Force  
+#####Co Founder / Director / Web Developer
+######*February 2001 - December 2004*
+
 - Australia’s leading Street/Online street team promotion company
 - Managing both Online and Offline teams of 8000+ people on a daily basis
 - Managing and creating marketing plans
@@ -147,12 +169,12 @@ Suburban Force
 - Digital media (streaming video and audio)
 - Implementing of new technologies (SMS delivery, backend systems)
 
----
+***
 
 **Additional employment history is available on request**
 
 ##About
-I'm a music lover, with a keen interesting in tattoos martial arts, I have studied Brazilian Jiu Jitsu for 7 years and I  have two full sleeve tattoos.
+When I'm not creating amazing font-end code, I spend my time cooking (I'm a keen BBQer), wrestling (I've done BJJ for 7 years), and researching what gadget I *need* to buy next. I have a fish called mike, and live my girlfriend of 3 years.
 
 I also co-founded a startup that was accepted into Australias first start-up incubator program - StartMate beating out over 200 other applicants.
 
