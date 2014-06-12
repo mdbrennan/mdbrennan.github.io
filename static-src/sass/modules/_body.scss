@@ -1,6 +1,6 @@
 /* sections */
 section[data-scroll-section]{
-	min-height:500px;	
+	@include clearfix();	
 	position:relative;	
 	h2{
 		height:75px;
@@ -11,7 +11,7 @@ section[data-scroll-section]{
 		padding:0px 40px;
 	}
 	.post-content{
-		padding:40px;
+		padding:0px;
 	}
 	@include respond-to(desktop){
 		&.scroll-active{		
@@ -25,7 +25,7 @@ section[data-scroll-section]{
 	}
 	@include respond-to(tablet){			
 		h2{
-			position: -webkit-sticky !important;
+			@include stickyicky();
 			top:0px;			
 			width:100%;
 		}
@@ -34,7 +34,7 @@ section[data-scroll-section]{
 	}
 	@include respond-to(mobile){		
 		h2{
-			position: -webkit-sticky !important;
+			@include stickyicky();
 			top:0px;			
 			width:100%;
 		}

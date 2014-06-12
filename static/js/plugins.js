@@ -1,4 +1,5 @@
 
+
 (function($, window, document, undefined) {
 
 	$.widget('mbrennan.navScroll', {
@@ -12,7 +13,19 @@
 
 		_create: function() {
 			var self = this;
-			self.install();			
+			self.install();	
+
+			/*
+			var timer;
+			self._on(window,{
+				'resize':function(){
+						clearTimeout(timer);
+			    		timer = setTimeout(function(){
+			    		self.resizePanels();
+			    	},100)
+				}
+			})
+			*/	
 		},
 
 		install: function() {
@@ -26,10 +39,11 @@
 				name: $(element).data('scroll-nav'),
 				element: element,
 				section: sectionEl,
-				top:sectionEl.position().top,
+				top:sectionEl.offset().top,
 				height:sectionEl.height()				
 			}		
 			self.anchorPoints.push(section);											
+			console.log(section);			
 
 			self._on(element,{
 				'click':self.clickScroll
@@ -39,7 +53,8 @@
 				'scroll':self.watchScroll				
 			});
 
-			$(window).scroll();												
+			//$(window).scroll();			
+										
 		},
 
 		anchorPoints : [],
@@ -72,11 +87,9 @@
 			var self = this,
 				options = self.options;					
 			var pos = $(window).scrollTop();
-			var anchorPoints = self.anchorPoints;
-						
-			for(var i = 0; i < anchorPoints.length; i++){						
-
-				if (pos >= anchorPoints[i].top && pos < anchorPoints[i].top + anchorPoints[i].height){					
+			var anchorPoints = self.anchorPoints;									
+			for(var i = 0; i < anchorPoints.length; i++){													
+				if (pos >= (anchorPoints[i].top - options.header) && pos < (anchorPoints[i].top + anchorPoints[i].height) - options.header){					
 					$('.scroll-active').removeClass('scroll-active');
 					$(anchorPoints[i].element).addClass('scroll-active');
 					$(anchorPoints[i].section).addClass('scroll-active');
@@ -85,6 +98,19 @@
 					$('.scroll-active').removeClass('scroll-active');	
 				}
 			}
+		},
+
+		resizePanels : function(){
+			console.log('resize');
+			var self = this;
+			var anchorPoints = self.anchorPoints;	
+			for(var i = 0; i < anchorPoints.length; i++){
+				anchorPoints[i].top = anchorPoints[i]['section'].offset().top;
+				anchorPoints[i].height = anchorPoints[i]['section'].height();
+			}
+
+			console.log(anchorPoints);
+
 		}
 	});
 

@@ -1,3 +1,6 @@
 section[data-scroll-section="about"]{
-	background-color:#FF5252;
+	background-color:$about-bg;
+	h2{
+		background-color:$about-bg;
+	}
 }

@@ -1,4 +1,7 @@
 section[data-scroll-section="references"]{
-	background-color:#11A1FA;
+	background-color:$references-bg;
+	h2{
+		background-color:$references-bg;
+	}
 }
 

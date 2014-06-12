@@ -11,6 +11,13 @@
     }
 }
 
+@mixin stickyicky(){
+  position: -webkit-sticky !important;
+  position: -moz-sticky !important;
+  position: -ms-sticky !important;
+  position: -o-sticky !important;
+}
+
 @mixin abs-pos ($top: auto, $right: auto, $bottom: auto, $left: auto) {
   top: $top;
   right: $right;

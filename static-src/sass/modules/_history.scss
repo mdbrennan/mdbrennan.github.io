@@ -1,3 +1,6 @@
 section[data-scroll-section="history"]{
-	background-color:#4ACC08;
+	background-color:$history-bg;
+	h2{
+		background-color:$history-bg;
+	}
 }

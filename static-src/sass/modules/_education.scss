@@ -1,3 +1,6 @@
 section[data-scroll-section="education"]{
-	background-color:#387CF2;
+	background-color:$education-bg;
+	h2{
+		background-color:$education-bg;
+	}
 }
