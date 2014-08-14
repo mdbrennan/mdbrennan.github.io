@@ -46,9 +46,7 @@ Sydney Institute of Technology, NSW, AU
 ##History
 
 ####Australian Broachcasting Corportation  
-
-#####Senior Front-End Devloper
-
+#####Senior Front-End Devloper  
 ######*October 2013 - Present*
 
 - Senior Front End Developer, responsible for implementation of responsive CMS front-end.
@@ -62,8 +60,7 @@ Sydney Institute of Technology, NSW, AU
 
 ####Neon Stingray  
 
-#####Lead Front-End Developer
-
+#####Lead Front-End Developer  
 ######*April 2013 - October 2013*
 
 - Lead Front-End developer for Foxtel's Presto Video on Demand service
