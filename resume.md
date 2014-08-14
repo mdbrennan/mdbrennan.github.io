@@ -1,3 +1,7 @@
+---
+Title: Matthew Brennan
+---
+
 ##Introduction
 
 With over 14 years professional experience in this industry I am a great asset to any company or team when it comes to all aspects of front-end development. I have worked for both large and small companies including two of the biggest in Australia (Yahoo!, News Digital Media).
