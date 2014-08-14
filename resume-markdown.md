@@ -1,4 +1,35 @@
-##Introduction
+---
+Title: Matthew Brennan Resume
+---
+
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="static/css/screen.css" media="screen">
+
+        <script src="static/js/lib/modernizr.min.js"></script>
+
+
+        
+    </head>
+    <body class="resume">
+        
+        <header>  
+            <h1>Title</h1>
+        <!-- Header content -->
+        </header>
+       
+        <main role="main">
+        <!-- Page content -->
+            <!-- intro -->
+            <section data-scroll-section="introduction" id="introduction" class="panel">
+                ##Introduction
 
 With over 14 years professional experience in this industry I am a great asset to any company or team when it comes to all aspects of front-end development. I have worked for both large and small companies including two of the biggest in Australia (Yahoo!, News Digital Media).
 
@@ -14,20 +45,11 @@ Keep up to speed with industry trends and best practices, and stay on the cuttin
 
 Over 14 years experience working in the Web Development field for both large and small companies. I have a strong skill set in all areas of Front-End development for the modern web space including HTML, CSS, JavaScript, and a strong command of accessibility and performance issues. 
 
-###Key Skills
+            </section>
 
-- Excellent command of HTML, CSS and JavaScript
-- High attention to detail
-- Excellent knowledge of web graphics applications & techniques
-- Mac & PC proficient
-- Excellent knowledge complete web development process
-- Problem Solving
-- Project Management 
-- Exposure and hands on development with OpenSource CMS frameworks (wordpress, drupal, joomla)
-- Experienced in working with the following languages; Java, PHP, ASP
-
-
-##Education
+            <!-- education -->
+            <section data-scroll-section="education" id="education" class="panel">
+                ##Education
 
 ####B.A. Multimedia (Interactive Learning)
 Southern Cross University, NSW, AU
@@ -39,6 +61,11 @@ Sydney Institute of Technology, NSW, AU
 
 ####Certified Scrum Master
 
+            </section>
+
+            <!-- history -->
+            <section data-scroll-section="history" id="history" class="panel">
+                
 ##History
 
 ####Australian Broachcasting Corportation  
@@ -48,9 +75,9 @@ Sydney Institute of Technology, NSW, AU
 - Senior Front End Developer, responsible for implementation of responsive CMS front-end.
 - ‘Hired Gun’ bought in to hit the ground running due to my extensive experience with enterprise level responsive front end builds
 - Framework built using the following technologies
-	- Grunt
-	- SASS
-	- jQuery, Bootstrap, Backbone, jQuery UI Widget factory, Require JS
+    - Grunt
+    - SASS
+    - jQuery, Bootstrap, Backbone, jQuery UI Widget factory, Require JS
 
 ---
 
@@ -60,8 +87,8 @@ Sydney Institute of Technology, NSW, AU
 
 - Lead Front-End developer for Foxtel's Presto Video on Demand service
 - Custome responsive mobile framework development
-	- Leanback / Couch mode front-end framework
-	- Custom responsonsive carousel plugin
+    - Leanback / Couch mode front-end framework
+    - Custom responsonsive carousel plugin
 - Extensive JavaScript framework development
 - Google Web ToolKit front-end integration
 
@@ -173,6 +200,35 @@ Sydney Institute of Technology, NSW, AU
 
 **Additional employment history is available on request**
 
+
+            </section>
+
+            <!-- skills -->
+            <section data-scroll-section="skills" id="skills" class="panel">
+                
+###Key Skills
+
+- Excellent command of HTML, CSS and JavaScript
+- High attention to detail
+- Excellent knowledge of web graphics applications & techniques
+- Mac & PC proficient
+- Excellent knowledge complete web development process
+- Problem Solving
+- Project Management 
+- Exposure and hands on development with OpenSource CMS frameworks (wordpress, drupal, joomla)
+- Experienced in working with the following languages; Java, PHP, ASP
+
+
+            </section>
+
+            <!-- references -->
+            <section data-scroll-section="references" id="references" class="panel">
+                <h2>Refs</h2>
+            </section>
+
+            <!-- notes -->
+            <section data-scroll-section="about" id="about" >
+                
 ##About
 When I'm not creating amazing font-end code, I spend my time cooking (I'm a keen BBQer), wrestling (I've done BJJ for 7 years), and researching what gadget I *need* to buy next. I have a fish called mike, and live with my girlfriend of 3 years.
 
@@ -180,6 +236,44 @@ I also co-founded a startup that was accepted into Australias first start-up inc
 
 I regularly work on my own projects to both test if an idea is viable, and to sharpen my skills with the latest web technologies. 
 
-<!--
-This resume site is built on top of the Ghost Blogging CMS with a custom theme. The source code is available at the following [GitHub repository](https://github.com/mdbrennan/mdbrennan.github.io)
--->
+
+            </section>
+        </main>
+        
+        <aside role="complementary">
+        <!-- Secondary content -->
+            <nav>
+                <ul>
+                    <li data-scroll-nav="introduction">
+                        <a href="#introduction">Intro</a>
+                    </li>
+                    <li data-scroll-nav="education" >
+                        <a href="#education">education</a>
+                    </li>
+                    <li data-scroll-nav="history" >
+                        <a href="#history">history</a>
+                    </li>
+                    <li data-scroll-nav="skills" >
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li data-scroll-nav="references" >
+                        <a href="#references">References</a>
+                    </li>
+                    <li data-scroll-nav="about" >
+                        <a href="#about">Notes</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <footer>
+        <!-- Footer content -->
+            <h2>Title</h2>
+        </footer>
+
+
+       <script src="static/js/base.js"></script>
+       <script src="static/js/plugins.js"></script>
+       <script src="static/js/app.js"></script>
+    </body>
+</html>
