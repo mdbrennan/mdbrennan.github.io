@@ -1,3 +1,12 @@
+#Matthew Brennan
+**Front End Developer**  
+
+- Phone: 0403152750
+- Email: mdbrennan@yahoo.com
+- Contract Day Rate: $650-700
+
+
+
 ##Introduction
 
 With over 14 years professional experience in this industry I am a great asset to any company or team when it comes to all aspects of front-end development. I have worked for both large and small companies including two of the biggest in Australia (Yahoo!, News Digital Media).
@@ -14,6 +23,8 @@ Keep up to speed with industry trends and best practices, and stay on the cuttin
 
 Over 14 years experience working in the Web Development field for both large and small companies. I have a strong skill set in all areas of Front-End development for the modern web space including HTML, CSS, JavaScript, and a strong command of accessibility and performance issues. 
 
+<div style="page-break-after: always;"></div>
+
 ###Key Skills
 
 - Excellent command of HTML, CSS and JavaScript
@@ -29,21 +40,24 @@ Over 14 years experience working in the Web Development field for both large and
 
 ##Education
 
-####B.A. Multimedia (Interactive Learning)
+**B.A. Multimedia (Interactive Learning)  **
 Southern Cross University, NSW, AU
 
-####Network Administration
+**Network Administration**
 Sydney Institute of Technology, NSW, AU
 
-####Certified in Agile Development Process (scrum & kanban)
+**Certified in Agile Development Process (scrum & kanban)**
 
-####Certified Scrum Master
+**Certified Scrum Master**  
+
+
+***
 
 ##History
 
-####Australian Broachcasting Corportation  
-#####Senior Front-End Devloper
-######*October 2013 - Present*
+###Australian Broadcasting Corportation  
+**Senior Front-End Devloper**
+*October 2013 - Present*
 
 - Senior Front End Developer, responsible for implementation of responsive CMS front-end.
 - ‘Hired Gun’ bought in to hit the ground running due to my extensive experience with enterprise level responsive front end builds
@@ -54,9 +68,9 @@ Sydney Institute of Technology, NSW, AU
 
 ---
 
-####Neon Stingray  
-#####Lead Front-End Developer
-######*April 2013 - October 2013*
+###Neon Stingray  
+**Lead Front-End Developer**
+*April 2013 - October 2013*
 
 - Lead Front-End developer for Foxtel's Presto Video on Demand service
 - Custome responsive mobile framework development
@@ -67,9 +81,9 @@ Sydney Institute of Technology, NSW, AU
 
 ---
 
-####IRL Gaming PTY LTD  
-#####Co-Founder / Director / Lead Front-End Devloper
-######*January 2011 - December 2013*
+###IRL Gaming PTY LTD  
+**Co-Founder / Director / Lead Front-End Devloper**
+*January 2011 - December 2013*
 
 - Lead Front-End Developer for iOS mobile games and apps using Appcelerator Titanium
 - Detailed mobile UX and Interface Development
@@ -80,9 +94,9 @@ Sydney Institute of Technology, NSW, AU
 
 ---
 
-####Vodafone Hutchinson Australia  
-#####Lead Front-End Developer
-######*10/2010 -04/2013*
+###Vodafone Hutchinson Australia  
+**Lead Front-End Developer**
+*10/2010 -04/2013*
 
 - Lead front-end developer for all major projects
 - Management of 4 developer direct reports
@@ -94,9 +108,9 @@ Sydney Institute of Technology, NSW, AU
 
 ---
 
-####News Digital Media (True Local)  
-#####Lead Front-End Developer
-######*June 2009 - November 2010*
+###News Digital Media (True Local)  
+**Lead Front-End Developer**
+*June 2009 - November 2010*
 
 - Team lead for all front-end development for TrueLocal
 - Total ownership of all front-end technologies
@@ -108,9 +122,9 @@ Sydney Institute of Technology, NSW, AU
 
 ---
 
-####The Sound Alliance  
-#####Senior Front-End Developer
-######*February 2009 - June 2009*
+###The Sound Alliance  
+**Senior Front-End Developer**
+*February 2009 - June 2009*
 
 - Responsible for front-end mark up
 - JavaScript Development based on jQuery framework
@@ -121,9 +135,9 @@ Sydney Institute of Technology, NSW, AU
 
 ---
 
-####Yahoo! Inc  
-#####Front-End Engineer
-######*January 2006 - December 2008*
+###Yahoo! Inc  
+**Front-End Engineer**
+*January 2006 - December 2008*
 
 - Responsible for front end mark up (HTML, CSS, JavaScript)
 - Clear separation of presentational layer
@@ -137,9 +151,9 @@ Sydney Institute of Technology, NSW, AU
 
 ---
 
-####Freelance Web Development  
-#####HWW Limited (nineMSN), Matrix Media, Chameleon Group
-######*2004 - 2006*
+###Freelance Web Development  
+**HWW Limited (nineMSN), Matrix Media, Chameleon Group**
+*2004 - 2006*
 
 - Front end mark up (HTML, CSS, JavaScript)
 - Mobile Device websites & Content design/development
@@ -151,9 +165,9 @@ Sydney Institute of Technology, NSW, AU
 
 ---
 
-####Suburban Force  
-#####Co Founder / Director / Web Developer
-######*February 2001 - December 2004*
+###Suburban Force  
+**Co Founder / Director / Web Developer**
+*February 2001 - December 2004*
 
 - Australia’s leading Street/Online street team promotion company
 - Managing both Online and Offline teams of 8000+ people on a daily basis
@@ -169,15 +183,32 @@ Sydney Institute of Technology, NSW, AU
 - Digital media (streaming video and audio)
 - Implementing of new technologies (SMS delivery, backend systems)
 
-***
-
 **Additional employment history is available on request**
 
-##About
+***
+
+## References
+
+**Daniel Eyles**
+*Developer Lead (ABC Open)*
+ABC
+Phone: +61 409 763 890
+Email: Eyles.Daniel@abc.net.au
+
+**Hilary Cinis**
+*Senior User Experience Designer,  NICTA *
+Phone: +61 421 472 002
+Email: hilary.cinis@nicta.com.au
+
+***
+
+##About Me
 When I'm not creating amazing font-end code, I spend my time cooking (I'm a keen BBQer), wrestling (I've done BJJ for 7 years), and researching what gadget I *need* to buy next. I have a fish called mike, and live my girlfriend of 3 years.
 
 I also co-founded a startup that was accepted into Australias first start-up incubator program - StartMate beating out over 200 other applicants.
 
 I regularly work on my own projects to both test if an idea is viable, and to sharpen my skills with the latest web technologies. 
 
-This resume site is built on top of the Ghost Blogging CMS with a custom theme. The source code is available at the following [GitHub repository](https://github.com/mdbrennan/mdbrennan.github.io)
+<!--This resume site is built on top of the Ghost Blogging CMS with a custom theme. The source code is available at the following [GitHub repository](https://github.com/mdbrennan/mdbrennan.github.io)-->
+
+***

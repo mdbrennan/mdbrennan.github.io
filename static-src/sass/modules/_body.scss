@@ -11,7 +11,8 @@ section[data-scroll-section]{
 		padding:0px 40px;
 	}
 	.post-content{
-		padding:0px;
+		padding:20px 40px;
+		min-height: 500px;
 	}
 	@include respond-to(desktop){
 		&.scroll-active{		
